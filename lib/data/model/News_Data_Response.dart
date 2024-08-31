@@ -1,4 +1,4 @@
-import 'package:kemo_news_app/data/model/Sources_Responces.dart';
+import 'package:kemo_news_app/data/model/Sources_Response.dart';
 
 class News_Data_Response {
   String? status;
@@ -18,15 +18,15 @@ class News_Data_Response {
     }
   }
 
-// Map<String, dynamic> toJson() {
-//   final Map<String, dynamic> data = new Map<String, dynamic>();
-//   data['status'] = this.status;
-//   data['totalResults'] = this.totalResults;
-//   if (this.articles != null) {
-//     data['articles'] = this.articles!.map((v) => v.toJson()).toList();
-//   }
-//   return data;
-// }
+  // Map<String, dynamic> toJson() {
+  //   final Map<String, dynamic> data = new Map<String, dynamic>();
+  //   data['status'] = this.status;
+  //   data['totalResults'] = this.totalResults;
+  //   if (this.articles != null) {
+  //     data['articles'] = this.articles!.map((v) => v.toJson()).toList();
+  //   }
+  //   return data;
+  // }
 }
 
 class Articles {
@@ -61,20 +61,20 @@ class Articles {
     content = json['content'];
   }
 
-// Map<String, dynamic> toJson() {
-//   final Map<String, dynamic> data = new Map<String, dynamic>();
-//   if (this.source != null) {
-//     data['source'] = this.source!.toJson();
-//   }
-//   data['author'] = this.author;
-//   data['title'] = this.title;
-//   data['description'] = this.description;
-//   data['url'] = this.url;
-//   data['urlToImage'] = this.urlToImage;
-//   data['publishedAt'] = this.publishedAt;
-//   data['content'] = this.content;
-//   return data;
-// }
+  // Map<String, dynamic> toJson() {
+  //   final Map<String, dynamic> data = new Map<String, dynamic>();
+  //   if (this.source != null) {
+  //     data['source'] = this.source!.toJson();
+  //   }
+  //   data['author'] = this.author;
+  //   data['title'] = this.title;
+  //   data['description'] = this.description;
+  //   data['url'] = this.url;
+  //   data['urlToImage'] = this.urlToImage;
+  //   data['publishedAt'] = this.publishedAt;
+  //   data['content'] = this.content;
+  //   return data;
+  // }
 }
 
 // class Source {
