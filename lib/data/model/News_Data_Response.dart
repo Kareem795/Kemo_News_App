@@ -1,4 +1,4 @@
-import 'package:kemo_news_app/data/model/Sources_Response.dart';
+import 'package:news_project/data/model/Sources_Response.dart';
 
 class News_Data_Response {
   String? status;
